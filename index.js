@@ -11,7 +11,7 @@ async function renderUsers() {
 
 function showUserPosts(id) {
   localStorage.setItem("id", id);
-  window.location.href = `${window.location.origin}/user.html`
+  window.location.href = `${window.location.href}/user.html`
 }
 
 function userHTML(user) {
